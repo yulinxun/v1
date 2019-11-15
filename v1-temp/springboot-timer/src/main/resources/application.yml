@@ -1,0 +1,16 @@
+dubbo:
+  application:
+    name: timer-service
+  registry:
+    protocol: zookeeper
+    address: 106.13.208.154:2181
+server:
+  port: 9099
+
+spring:
+  rabbitmq:
+    host: 106.13.208.154
+    port: 5672
+    username: yu
+    password: 123
+    virtual-host: java1907

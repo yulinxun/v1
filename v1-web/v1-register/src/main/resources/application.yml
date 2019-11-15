@@ -1,0 +1,23 @@
+dubbo:
+  application:
+    name: register-center
+  registry:
+    protocol: zookeeper
+    address: 106.13.208.154:2181
+server:
+  port: 9096
+
+spring:
+  redis:
+    host: 106.13.208.154
+    port: 6379
+    password: yu
+    jedis:
+      pool:
+        max-active: 66
+  rabbitmq:
+    host: 106.13.208.154
+    port: 5672
+    username: yu
+    password: 123
+    virtual-host: java1907

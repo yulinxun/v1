@@ -1,0 +1,22 @@
+dubbo:
+  application:
+    name: mail-service
+  registry:
+    protocol: zookeeper
+    address: 106.13.208.154:2181
+  protocol:
+    port: '20884'
+server:
+  port: 8097
+spring:
+  rabbitmq:
+    host: 106.13.208.154
+    port: 5672
+    username: yu
+    password: 123
+    virtual-host: java1907
+  mail:
+    host: smtp.qq.com
+    username: 839177458@qq.com
+    password: tmjaatuvipwqbebg
+    default-encoding: UTF-8

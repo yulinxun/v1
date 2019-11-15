@@ -1,0 +1,14 @@
+dubbo:
+  application:
+    name: index-center
+  registry:
+    protocol: zookeeper
+    address: 106.13.208.154:2181
+server:
+  port: 9093
+spring:
+  thymeleaf:
+    cache: false
+
+
+
